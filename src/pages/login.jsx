@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useHistory } from "react";
 import Sawo from "sawo";
 
 const LoginPage = () => {
@@ -13,7 +13,8 @@ const LoginPage = () => {
       // Add a callback here to handle the payload sent by sdk
       onSuccess: (payload) => {
         // you can use this payload for your purpose
-        console.log(payload);
+        //console.log(payload);
+        window.location.href = "/home";
       },
     };
     let sawo = new Sawo(config);

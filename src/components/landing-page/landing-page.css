@@ -1,0 +1,243 @@
+.landing-page {
+  margin: 0;
+  font-family: "ABeeZee";
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://www.forbesindia.com/media/images/2018/Oct/img_109913_fortis_boulevard.jpg");
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.header {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+.title {
+  font-size: 150px;
+}
+
+#opening-div {
+  position: absolute;
+  left: 33%;
+  margin: 0 auto 0 auto;
+  padding-left: 20px;
+  top: 30%;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 6.25px solid transparent;
+  border-left: 12.5px solid aqua;
+  border-bottom: 6.25px solid transparent;
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 50%;
+  padding: 1rem 2rem;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .warning {
+    display: none;
+  }
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+:focus {
+  outline: none;
+}
+
+.login-button {
+  max-width: 660px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 8rem;
+  left: 42%;
+}
+button {
+  overflow: visible;
+  border: 0;
+  padding: 0;
+  margin: 1.8rem;
+}
+.btn.striped-shadow span {
+  display: block;
+  position: relative;
+  z-index: 2;
+  border: 5px solid;
+}
+.btn.striped-shadow.white span {
+  border-color: #fff;
+  color: #fff;
+  background: #ec5645;
+}
+
+.btn {
+  font-family: "Bungee Shade", sans-serif;
+  height: 80px;
+  line-height: 65px;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  font-size: 1.35rem;
+  transition: opacity 0.3s, z-index 0.3s step-end, -webkit-transform 0.3s;
+  transition: opacity 0.3s, z-index 0.3s step-end, transform 0.3s;
+  transition: opacity 0.3s, z-index 0.3s step-end, transform 0.3s,
+    -webkit-transform 0.3s;
+  z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  width: 155px;
+  height: 48px;
+  line-height: 38px;
+}
+
+button.btn.striped-shadow.white:after,
+button.btn.striped-shadow.white:before {
+  background-image: linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 5px,
+    #fff 5px,
+    #fff 10px,
+    transparent 10px
+  );
+}
+
+button.btn.striped-shadow.blue:after,
+button.btn.striped-shadow.blue:before {
+  background-image: linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 5px,
+    #4183d7 5px,
+    #4183d7 10px,
+    transparent 10px
+  );
+}
+
+button.btn.striped-shadow.dark:after,
+button.btn.striped-shadow.dark:before {
+  background-image: linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 5px,
+    #393939 5px,
+    #393939 10px,
+    transparent 10px
+  );
+}
+
+button.btn.striped-shadow:hover:before {
+  max-height: calc(100% - 10px);
+}
+
+button.btn.striped-shadow:after {
+  width: calc(100% - 4px);
+  height: 8px;
+  left: -10px;
+  bottom: -9px;
+  background-size: 15px 8px;
+  background-repeat: repeat-x;
+}
+button.btn.striped-shadow:after,
+button.btn.striped-shadow:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  transition: max-height 0.3s, width 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, max-height 0.3s, width 0.3s;
+  transition: transform 0.3s, max-height 0.3s, width 0.3s,
+    -webkit-transform 0.3s;
+}
+
+.btn.striped-shadow:hover {
+  -webkit-transform: translate(-12px, 12px);
+  -ms-transform: translate(-12px, 12px);
+  transform: translate(-12px, 12px);
+  z-index: 3;
+}
+
+button.btn.striped-shadow:hover:after,
+button.btn.striped-shadow:hover:before {
+  -webkit-transform: translate(12px, -12px);
+  -ms-transform: translate(12px, -12px);
+  transform: translate(12px, -12px);
+}
+button.btn.striped-shadow:before {
+  width: 8px;
+  max-height: calc(100% - 5px);
+  height: 100%;
+  left: -12px;
+  bottom: -5px;
+  background-size: 8px 15px;
+  background-repeat: repeat-y;
+  background-position: 0 100%;
+}
