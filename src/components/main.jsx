@@ -15,10 +15,10 @@ class Main extends Component {
             <div className="content">
               <p>&nbsp;</p>
               <div
-                className="card mb-3 mx-auto bg-dark"
+                className="card mb-3 mx-auto bg-danger"
                 style={{ maxWidth: "512px" }}
               >
-                <h2 className="text-white text-monospace bg-dark">
+                <h2 className="text-white text-monospace bg-danger">
                   <b>
                     <ins>Choose Presciption/Reports</ins>
                   </b>
@@ -48,7 +48,7 @@ class Main extends Component {
                     onChange={this.props.captureFile}
                     className="text-white text-monospace"
                   />
-                  <button type="submit" className="btn-primary btn-block">
+                  <button type="submit" className="btn-info btn-block p-2 my-3">
                     <b>Upload!</b>
                   </button>
                 </form>
@@ -59,7 +59,7 @@ class Main extends Component {
                 style={{ width: "1000px", maxHeight: "450px" }}
               >
                 <thead style={{ fontSize: "15px" }}>
-                  <tr className="bg-dark text-white">
+                  <tr className="bg-danger text-white">
                     <th scope="col" style={{ width: "10px" }}>
                       id
                     </th>

@@ -4,7 +4,7 @@ import Identicon from "identicon.js";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-dark bg-dark p-0 text-monospace">
+      <nav className="navbar navbar-dark bg-danger p-0 text-monospace">
         <p className="text-white">Victus</p>
         <ul className="navbar-nav px-3">
           {this.props.account ? (
