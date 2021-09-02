@@ -53,7 +53,7 @@ export default function LandingPageComp() {
       <p
         style={{
           position: "absolute",
-          bottom: " 8%",
+          bottom: " 0%",
           left: "30%",
           width: "40%",
           fontSize: "15px",
