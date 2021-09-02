@@ -20,7 +20,7 @@ class Main extends Component {
               >
                 <h2 className="text-white text-monospace bg-dark">
                   <b>
-                    <ins>Share File</ins>
+                    <ins>Choose Presciption/Reports</ins>
                   </b>
                 </h2>
                 <form
