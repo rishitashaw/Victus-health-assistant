@@ -1,6 +1,6 @@
 # Victus
 
-This project is based on blockchain application for keeping track of a person’s medical history. It’s a dapp that aims at helping out clients for maintaining their records and safeguards them against any frauds. Clients can freely store their prescriptions,bills and reports in this dapp 
+This project is based on blockchain application for keeping track of a person’s medical history. It’s a dapp built on ethereum that aims at helping out clients for maintaining their records and safeguards them against any frauds. Clients can freely store their prescriptions,bills and reports in this dapp 
 without the fear of them getting misplaced.
 
 
