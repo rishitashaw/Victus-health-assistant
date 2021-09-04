@@ -12,12 +12,12 @@ export default function LandingPageComp() {
             <nav id="nav-bar">
               <ul id="navigation">
                 <li>
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/home">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#working">
                     Working
                   </a>
                 </li>
@@ -138,10 +138,8 @@ export default function LandingPageComp() {
             <div className="without-vpn">
               <h3>Without Victus</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                perspiciatis animi quam esse tenetur, tempore, sequi aut earum
-                impedit cumque error at iure, eaque dolores! Consectetur
-                molestiae delectus nostrum eum.
+                Your medical records may get lost or maybe Insurance companies
+                can charge you for something which you didnt buy/undergo.
               </p>
             </div>
           </div>
@@ -149,19 +147,8 @@ export default function LandingPageComp() {
 
         <section id="pricing">
           <div className="container flex col-flex">
-            <div className="exp-pricing">
-              <h2>Know our Objective</h2>
-
-              <h3>Huge Global Network of DApps</h3>
-              <p>
-                See <span className="s-vpn">Victus</span> everywhere <br />
-                to make it easier for you when you save new information
-              </p>
-              <img
-                className="companies"
-                src="https://github.com/balaga-yavanika/balagayavanika.github.io/blob/main/Images/companies.png?raw=true"
-                alt="companies"
-              />
+            <div className="exp-pricing mb-4">
+              <h2>Know our Objectives</h2>
             </div>
 
             <img
@@ -171,50 +158,32 @@ export default function LandingPageComp() {
             />
             <div className="p-plans flex mob-flex">
               <div className="plans uno-tres pr-flex" id="o-month">
-                <h5 className="level-dark d-flex">1 Month</h5>
-                <h2>
-                  <span className="d-shaded">USD</span>12.95
-                  <span className="d-shaded">/mo</span>
-                </h2>
-                <strong>USD 12.95 /mo</strong>
+                <h5 className="level-dark d-flex">Protection</h5>
+
                 <p>
-                  Billed every month. Additional taxes may apply depending on
-                  your jurisdiction.
+                  To protect you from fraudulent charges and to ensure your data
+                  is secure
                 </p>
                 <button className="dark-button">Get Started</button>
               </div>
 
               <div className="plans dos pr-flex" id="t-month">
-                <h5 className="level d-flex">24 Months</h5>
-                <h2>
-                  <span className="l-shaded">USD</span> 2.49{" "}
-                  <span className="l-shaded">/mo</span>
-                </h2>
-                <strong>
-                  <s className="l-shaded">USD 12.95 /mo</s>
-                </strong>
+                <h5 className="level d-flex">Security</h5>
                 <p>
-                  Billed USD 59.76 now, & annually after the first 24
-                  months.Additional taxes may apply depending on your
-                  jurisdiction.
+                  To provide a secure and reliable storage for all your medical
+                  records.
                 </p>
-                <button className="light-button">Get Started</button>
+                <button className="light-button">Explore Client Dapp</button>
               </div>
 
               <div className="plans uno-tres pr-flex" id="s-month">
-                <h5 className="level-dark d-flex">6 Months</h5>
-                <h2>
-                  <span className="d-shaded">USD</span>6.49
-                  <span className="d-shaded">/mo</span>
-                </h2>
-                <strong>
-                  <s className="d-shaded">USD 12.95 /mo</s>
-                </strong>
+                <h5 className="level-dark d-flex">Storage</h5>
+
                 <p>
-                  Billed USD 38.94 every 6 months. Additional taxes may apply
-                  depending on your jurisdiction.
+                  To provide a secure network to hospitals to manage huge amount
+                  of medical records of their patients.
                 </p>
-                <button className="dark-button">Get Started</button>
+                <button className="dark-button">Explore Hospital DApp</button>
               </div>
             </div>
           </div>
