@@ -208,10 +208,10 @@ button.btn.striped-shadow:hover:before {
 
 button.btn.striped-shadow:after {
   width: calc(100% - 4px);
-  height: 8px;
+  height: 28px;
   left: -10px;
-  bottom: -9px;
-  background-size: 15px 8px;
+  bottom: -35px;
+  background-size: 25px 28px;
   background-repeat: repeat-x;
 }
 button.btn.striped-shadow:after,
