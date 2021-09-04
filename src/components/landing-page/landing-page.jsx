@@ -27,12 +27,16 @@ export default function LandingPageComp() {
                     Contact
                   </a>
                 </li>
-                <li>
-                  <a className="nav-link" href="#">
-                    Admin
-                  </a>
-                </li>
-                <li className="button">Get Victus</li>
+                <Link to="/login">
+                  <li>
+                    <a className="nav-link" href="#">
+                      Admin
+                    </a>
+                  </li>
+                </Link>
+                <Link to="/home">
+                  <li className="button">Get Victus</li>
+                </Link>
               </ul>
             </nav>
           </div>
@@ -123,7 +127,7 @@ export default function LandingPageComp() {
                 id="video"
                 width="560"
                 height="315"
-                src="https://www.youtube-nocookie.com/embed/_wQTRMBAvzg"
+                src="https://www.youtube-nocookie.com/embed/bBC-nXj3Ng4" //youtu.be/
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
