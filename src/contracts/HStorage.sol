@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-contract DStorage {
+contract HStorage {
   // Name
-  string public name = "DStorage";
+  string public name = "HStorage";
 
   // Number of files
   uint256 public fileCount = 0;
@@ -17,6 +17,7 @@ contract DStorage {
     string fileType;
     string fileName;
     string fileDescription;
+    string recieverAddress;
     uint256 uploadTime;
     address payable uploader;
   }
@@ -29,6 +30,7 @@ contract DStorage {
     string fileType,
     string fileName,
     string fileDescription,
+    string recieverAddress,
     uint256 uploadTime,
     address payable uploader
   );
@@ -41,7 +43,8 @@ contract DStorage {
     uint256 _fileSize,
     string memory _fileType,
     string memory _fileName,
-    string memory _fileDescription
+    string memory _fileDescription,
+    string memory _recieverAddress
   ) public {
     // Make sure the file hash exists
     require(bytes(_fileHash).length > 0);
@@ -54,6 +57,9 @@ contract DStorage {
 
     // Make sure file fileName exists
     require(bytes(_fileDescription).length > 0);
+
+    require(bytes(_recieverAddress).length > 0);
+
 
     // Make sure uploader address exists
     require(msg.sender != address(0));
@@ -72,6 +78,7 @@ contract DStorage {
       _fileType,
       _fileName,
       _fileDescription,
+      _recieverAddress,
       now,
       msg.sender
     );
@@ -84,6 +91,7 @@ contract DStorage {
       _fileType,
       _fileName,
       _fileDescription,
+      _recieverAddress,
       now,
       msg.sender
     );
