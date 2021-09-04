@@ -15,10 +15,10 @@ class Main extends Component {
             <div className="content">
               <p>&nbsp;</p>
               <div
-                className="card mb-3 mx-auto bg-danger"
+                className="card mb-3 mx-auto bg-dark"
                 style={{ maxWidth: "512px" }}
               >
-                <h2 className="text-white text-monospace bg-danger">
+                <h2 className="text-white text-monospace bg-dark">
                   <b>
                     <ins>ADMIN</ins>
                     <br />
@@ -42,7 +42,7 @@ class Main extends Component {
                       ref={(input) => {
                         this.fileDescription = input;
                       }}
-                      className="form-control text-monospace"
+                      className="form-control text-monospace mx-3"
                       placeholder="description..."
                       required
                     />
@@ -53,7 +53,7 @@ class Main extends Component {
                       ref={(input) => {
                         this.recieverAddress = input;
                       }}
-                      className="form-control text-monospace"
+                      className="form-control text-monospace mx-3"
                       placeholder="reciever..."
                       required
                     />
@@ -74,7 +74,7 @@ class Main extends Component {
                 style={{ width: "1000px", maxHeight: "450px" }}
               >
                 <thead style={{ fontSize: "15px" }}>
-                  <tr className="bg-danger text-white">
+                  <tr className="bg-dark text-white">
                     <th scope="col" style={{ width: "10px" }}>
                       id
                     </th>

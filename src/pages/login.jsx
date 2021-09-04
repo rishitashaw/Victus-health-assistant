@@ -29,9 +29,10 @@ const LoginPage = () => {
         width: "100%",
         minHeight: "100vh",
         backgroundImage:
-          "url(https://images.unsplash.com/photo-1504439468489-c8920d796a29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80)",
+          "url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1200&fit=crop&crop=faces)",
         backgroundRepeat: "noRepeat",
         backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div
@@ -45,55 +46,14 @@ const LoginPage = () => {
         }}
       >
         <div
-          className="login-logo"
-          style={{
-            width: "100%",
-            backgroundColor: "#ffffff",
-            borderRadius: "4px 4px 0 0",
-            padding: "60px",
-            textAlign: "center",
-          }}
-        >
-          LOGO
-        </div>
-        <div
           id="sawo-container"
           style={{
             height: "300px",
             width: "300px",
+            textAlign: "center",
           }}
-        ></div>
-        <div className="login-socials">
-          <ul
-            style={{
-              display: "grid",
-              textAlign: "center",
-              gridTemplateColumns: "1fr 1fr 1fr",
-              listStyle: "none",
-              width: "100%",
-              backgroundColor: "#ffffff",
-              borderRadius: "0 0 4px 4px",
-              padding: "30px",
-            }}
-          >
-            <li>
-              <img
-                src="https://i.pinimg.com/736x/ac/57/3b/ac573b439cde3dec8ca1c6739ae7f628.jpg"
-                width="40px"
-                height="40px"
-              />
-            </li>
-            <li>
-              <img src="assets/github_logo.png" width="40px" height="40px" />
-            </li>
-            <li>
-              <img
-                src="https://w7.pngwing.com/pngs/872/50/png-transparent-computer-icons-social-media-logo-twitter-social-media-blue-logo-social-media-thumbnail.png"
-                width="40px"
-                height="40px"
-              />
-            </li>
-          </ul>
+        >
+          <h1>Victus</h1>
         </div>
       </div>
     </div>
