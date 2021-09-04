@@ -114,8 +114,16 @@
   width: 100%;
 
   position: absolute;
-  bottom: 8rem;
-  left: 42%;
+  bottom: 10rem;
+  left: 32%;
+}
+.login-button-2 {
+  max-width: 660px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 10rem;
+  left: 48%;
 }
 button {
   overflow: visible;

@@ -44,9 +44,16 @@ export default function LandingPageComp() {
         <h1 class="title">Victus</h1>
       </div>
       <div className="login-button">
+        <Link to="/home">
+          <button class="btn striped-shadow white">
+            <span>Login as Client</span>
+          </button>
+        </Link>
+      </div>
+      <div className="login-button-2">
         <Link to="/login">
           <button class="btn striped-shadow white">
-            <span>Login</span>
+            <span>Login as Administrator</span>
           </button>
         </Link>
       </div>

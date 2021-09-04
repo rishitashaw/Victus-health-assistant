@@ -20,7 +20,7 @@ class Main extends Component {
               >
                 <h2 className="text-white text-monospace bg-danger">
                   <b>
-                    <ins>CLIENT</ins>
+                    <ins>ADMIN</ins>
                     <br />
                     <ins>Choose Presciption/Reports</ins>
                   </b>
@@ -30,6 +30,8 @@ class Main extends Component {
                     event.preventDefault();
                     const description = this.fileDescription.value;
                     this.props.uploadFile(description);
+                    const recieverAddress = this.recieverAddress.value;
+                    this.props.uploadFile(recieverAddress);
                   }}
                 >
                   <div className="form-group">
@@ -42,6 +44,17 @@ class Main extends Component {
                       }}
                       className="form-control text-monospace"
                       placeholder="description..."
+                      required
+                    />
+                    <br />
+                    <input
+                      id="recieverAddress"
+                      type="text"
+                      ref={(input) => {
+                        this.recieverAddress = input;
+                      }}
+                      className="form-control text-monospace"
+                      placeholder="reciever..."
                       required
                     />
                   </div>
@@ -71,7 +84,9 @@ class Main extends Component {
                     <th scope="col" style={{ width: "230px" }}>
                       description
                     </th>
-
+                    <th scope="col" style={{ width: "230px" }}>
+                      Reciever
+                    </th>
                     <th scope="col" style={{ width: "120px" }}>
                       type
                     </th>
@@ -96,6 +111,8 @@ class Main extends Component {
                         <td>{file.fileId}</td>
                         <td>{file.fileName}</td>
                         <td>{file.fileDescription}</td>
+                        <td>{file.recieverAddress}</td>
+
                         <td>{file.fileType}</td>
                         <td>{convertBytes(file.fileSize)}</td>
                         <td>

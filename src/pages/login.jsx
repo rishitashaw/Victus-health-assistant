@@ -14,7 +14,7 @@ const LoginPage = () => {
       onSuccess: (payload) => {
         // you can use this payload for your purpose
         //console.log(payload);
-        window.location.href = "/home";
+        window.location.href = "/hospital";
       },
     };
     let sawo = new Sawo(config);
