@@ -14,6 +14,7 @@ const LoginPage = () => {
       onSuccess: (payload) => {
         // you can use this payload for your purpose
         //console.log(payload);
+        localStorage.setItem("isAuthenticated", "true");
         window.location.href = "/hospital";
       },
     };
