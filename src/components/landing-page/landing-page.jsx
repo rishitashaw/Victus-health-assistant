@@ -127,7 +127,7 @@ export default function LandingPageComp() {
                 id="video"
                 width="560"
                 height="315"
-                src="https://www.youtube-nocookie.com/embed/bBC-nXj3Ng4" //youtu.be/
+                src="https://www.youtube-nocookie.com/embed/-ZSbkhzr0Ns" //youtu.be/
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
