@@ -1,8 +1,29 @@
+# Victus
+
+This project is based on blockchain application for keeping track of a person’s medical history. It’s a dapp built on ethereum that aims at helping out clients for maintaining their records and safeguards them against any frauds. Clients can freely store their prescriptions,bills and reports in this dapp 
+without the fear of them getting misplaced.
+
+
+
+## Objectives
+
+* Victus will ensure that the users will not be fooled or cheated from the hospital’s side. In case if they try to manipulate the bill, victus dapp will not let that happen. Moreover clients ,who maintain their medical records on victus ,even after displacing their phone or mobile number can access their records through their Id.
+
+* Victus will employ good data practices to make sure sensitive data recorded in it via the users aren’t open to exploitation.
+
+*	Victus can be used to make intelligent record tracing dapp for even maintaining old records among the wide population.
+
+
+
+
 # screenshots
 
-![WhatsApp Image 2021-09-02 at 9 04 30 PM](https://user-images.githubusercontent.com/32922277/132097176-91e35db4-363f-4788-a9e7-621fc01cb6a9.jpeg)
-![WhatsApp Image 2021-09-02 at 9 04 50 PM](https://user-images.githubusercontent.com/32922277/132097183-49d507a9-a893-4b1f-8257-b4419ac881da.jpeg)
-![WhatsApp Image 2021-09-02 at 9 07 51 PM](https://user-images.githubusercontent.com/32922277/132097185-46c9741d-f6a1-4b64-a700-45b532a0175e.jpeg)
+![Screenshot 2021-09-04 at 11 22 16 PM](https://user-images.githubusercontent.com/32922277/132104473-65915cac-10db-41b2-a093-1193810d7529.png)
+<img width="1384" alt="Screenshot 2021-09-04 at 11 22 41 PM" src="https://user-images.githubusercontent.com/32922277/132104479-7b07040f-6994-4823-84ab-ad166fc85de2.png">
+<img width="1402" alt="Screenshot 2021-09-04 at 11 23 40 PM" src="https://user-images.githubusercontent.com/32922277/132104481-ad2cb506-8ea7-4a30-aa54-51941b712baf.png">
+![Screenshot 2021-09-04 at 11 23 15 PM](https://user-images.githubusercontent.com/32922277/132104483-68cc8975-8551-4948-b403-be4e55605953.png)
+<img width="1386" alt="Screenshot 2021-09-04 at 11 23 52 PM" src="https://user-images.githubusercontent.com/32922277/132104485-2d1d6823-99b9-406a-bb00-3eb89a5ca9e0.png">
+
 
 
 
@@ -69,13 +90,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#� �h�a�c�k�-�o�-�u�p�l�i�f�t�-�h�a�c�k�a�t�h�o�n�
-�
-�
