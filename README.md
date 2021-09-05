@@ -1,4 +1,4 @@
-![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/75828535/132113790-ba2927a2-26cb-4d87-9b96-adaeec4dc520.gif)
+
 # Victus
 
 This project is based on blockchain application for keeping track of a person’s medical history. It’s a dapp built on ethereum that aims at helping out clients for maintaining their records and safeguards them against any frauds. Clients can freely store their prescriptions,bills and reports in this dapp 
@@ -6,6 +6,7 @@ without the fear of them getting misplaced.
 
 ### 📹 [Video](https://youtu.be/-ZSbkhzr0Ns)
 
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/75828535/132113790-ba2927a2-26cb-4d87-9b96-adaeec4dc520.gif)
 
 ## Objectives
 
@@ -78,7 +79,6 @@ truffle test
 
 
 # screenshots
-![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/75828535/132113801-3b466e43-55f8-4ee3-87a7-6b2075adc76d.gif)
 
 ![Screenshot 2021-09-04 at 11 22 16 PM](https://user-images.githubusercontent.com/32922277/132104473-65915cac-10db-41b2-a093-1193810d7529.png)
 
