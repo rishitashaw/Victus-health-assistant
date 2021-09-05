@@ -42,7 +42,7 @@ class Main extends Component {
                       ref={(input) => {
                         this.fileDescription = input;
                       }}
-                      className="form-control text-monospace mx-3"
+                      className="form-control text-monospace "
                       placeholder="description..."
                       required
                     />
@@ -53,7 +53,7 @@ class Main extends Component {
                       ref={(input) => {
                         this.recieverAddress = input;
                       }}
-                      className="form-control text-monospace mx-3"
+                      className="form-control text-monospace "
                       placeholder="reciever..."
                       required
                     />
