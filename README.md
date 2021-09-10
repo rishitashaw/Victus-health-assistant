@@ -51,6 +51,7 @@ $ truffle --version
 ## get started 
 
 ```bash
+truffle migrate
 truffle deploy
 npm start
 ```
