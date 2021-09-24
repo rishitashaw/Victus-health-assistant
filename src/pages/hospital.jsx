@@ -7,7 +7,7 @@ import Web3 from "web3";
 const ipfsClient = require("ipfs-http-client");
 const ipfs = ipfsClient({
   host: "ipfs.infura.io",
-  port: 5001,
+  port: 5002,
   protocol: "https",
 }); // leaving out the arguments will default to these values
 
@@ -91,7 +91,7 @@ class Hospital extends Component {
       if (this.state.type === "") {
         this.setState({ type: "none" });
       }
-      this.state.hstorage.methods
+      this.state.dstorage.methods
         .uploadFile(
           result[0].hash,
           result[0].size,
@@ -115,7 +115,6 @@ class Hospital extends Component {
         });
     });
   };
-
   constructor(props) {
     super(props);
     this.state = {

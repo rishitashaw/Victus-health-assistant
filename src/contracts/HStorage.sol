@@ -58,7 +58,7 @@ contract HStorage {
     // Make sure file fileName exists
     require(bytes(_fileDescription).length > 0);
 
-    require(bytes(_recieverAddress).length > 0);
+   // require(bytes(_recieverAddress).length > 0);
 
 
     // Make sure uploader address exists

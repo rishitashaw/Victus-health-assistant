@@ -67,11 +67,17 @@ export default function LandingPageComp() {
             </div>
 
             <div className="illustration">
-              <img
+              {/* <img
                 src="https://www.reveation.io/uploads/Technology/Techno/blockchain.svg"
                 alt="Get secured with Supreme VPN Illustration"
                 width="300px"
                 height="auto"
+              /> */}
+              <img
+                src="https://brite.nridigital.com/brite/brite_autumn20/blockchain-business-model-innovation/141061/blockchain.svg"
+                alt="Get secured with Supreme VPN Illustration"
+                width="300px"
+                height="600px"
               />
             </div>
 
@@ -127,7 +133,7 @@ export default function LandingPageComp() {
                 id="video"
                 width="560"
                 height="315"
-                src="https://www.youtube-nocookie.com/embed/-ZSbkhzr0Ns" //youtu.be/
+                src="https://www.youtube-nocookie.com/embed/u-vrdPtZVXc"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
