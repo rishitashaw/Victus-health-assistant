@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+}
+h1 {
+  margin-left: 100px;
+  font-family: "Inconsolata", Consolas, monospace;
+  font-size: 8rem;
+  color: black;
+}
+.typing {
+  position: relative;
+}
+.typing::after {
+  content: "|";
+  position: absolute;
+  right: 40;
+  width: 100%;
+  color: black;
+  background: white;
+  animation: typing 4s steps(16) forwards, caret 1s infinite;
+}
+@keyframes typing {
+  to {
+    width: 0;
+  }
+}
+@keyframes caret {
+  50% {
+    color: transparent;
+  }
+}
