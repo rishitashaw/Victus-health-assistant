@@ -1,8 +1,8 @@
 import DStorage from "../abis/DStorage.json";
 import React, { Component } from "react";
-import Navbar from "../components/navbar/navbar";
 import Main from "../components/main";
 import Web3 from "web3";
+import UserNavbar from "../components/user-navbar/user-navbar";
 
 const ipfsClient = require("ipfs-http-client");
 const ipfs = ipfsClient({
@@ -132,7 +132,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar account={this.state.account} />
+        <UserNavbar account={this.state.account} />
         {this.state.loading ? (
           <div id="loader" className="text-center mt-5">
             <p>Loading...</p>

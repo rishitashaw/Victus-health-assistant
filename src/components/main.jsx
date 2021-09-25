@@ -5,7 +5,7 @@ import moment from "moment";
 class Main extends Component {
   render() {
     return (
-      <div className="container-fluid mt-5 text-center">
+      <div className="container-fluid mt-5 pt-5 text-center">
         <div className="row">
           <main
             role="main"
@@ -50,7 +50,11 @@ class Main extends Component {
                     onChange={this.props.captureFile}
                     className="text-white text-monospace mx-3"
                   />
-                  <button type="submit" className="btn-info btn-block p-2 my-3">
+                  <button
+                    type="submit"
+                    className="btn-block p-2 my-3"
+                    style={{ backgroundColor: "#eb92be" }}
+                  >
                     <b>Upload!</b>
                   </button>
                 </form>
