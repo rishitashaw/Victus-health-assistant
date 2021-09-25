@@ -5,73 +5,82 @@ import UserNavbar from "../user-navbar/user-navbar";
 import "../landing-page/landing-page.css";
 
 const state = {
-  labels: ["January", "February", "March", "April", "May"],
-  datasets: [
-    {
-      label: "Blood Sugar Level",
-      fill: false,
-      lineTension: 0.5,
-      backgroundColor: "#eb92be",
-      borderColor: "rgba(0,0,0,1)",
-      borderWidth: 2,
-      data: [65, 59, 80, 81, 56],
-    },
-  ],
+	labels: [
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"Aug",
+	],
+	datasets: [
+		{
+			label: "Blood Sugar Level (mg/dl)",
+			fill: true,
+			lineTension: 0.5,
+			backgroundColor: "#f09fc7",
+			borderColor: "rgba(0,0,0,1)",
+			borderWidth: 2,
+			data: [135, 141, 126, 131, 136, 134, 142, 136],
+		},
+	],
 };
 
 export default class SugarChart extends React.Component {
-  render() {
-    return (
-      <>
-        <UserNavbar />
+	render() {
+		return (
+			<>
+				<UserNavbar />
 
-        <div className="container-fluid mt-5 pt-5 text-center">
-          <div className="row">
-            <div className="col-4">
-              <HealthSideMenu />
-            </div>
+				<div className="container-fluid mt-5 pt-5 text-center">
+					<div className="row">
+						<div className="col-4">
+							<HealthSideMenu />
+						</div>
 
-            <div className="col-8">
-              <Line
-                data={state}
-                options={{
-                  title: {
-                    display: true,
-                    text: "Average Rainfall per month",
-                    fontSize: 20,
-                  },
-                  legend: {
-                    display: true,
-                    position: "right",
-                  },
-                }}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="form-section d-flex mt-5 pt-5">
-          <form
-            id="form"
-            className="flex"
-            action="https://www.freecodecamp.com/email-submit"
-          >
-            <input
-              name="email"
-              id="email"
-              type="email"
-              placeholder="Enter your Blood Sugar Level"
-              required
-            />
-            <input
-              id="submit"
-              type="submit"
-              value="Submit Now"
-              className="button"
-            />
-          </form>
-          <p>Keep Your Blood Sugar Level Data Here</p>
-        </div>
-      </>
-    );
-  }
+						<div className="col-8">
+							<Line
+								data={state}
+								options={{
+									title: {
+										display: true,
+										text: "Average Rainfall per month",
+										fontSize: 20,
+									},
+									legend: {
+										display: true,
+										position: "right",
+									},
+								}}
+							/>
+						</div>
+					</div>
+				</div>
+				<div className="form-section d-flex mt-5 pt-5">
+					<form
+						id="form"
+						className="flex"
+						action="https://www.freecodecamp.com/email-submit"
+					>
+						<input
+							name="email"
+							id="email"
+							type="email"
+							placeholder="Enter your Blood Sugar Level"
+							required
+						/>
+						<input
+							id="submit"
+							type="submit"
+							value="Submit Now"
+							className="button"
+						/>
+					</form>
+					<p>Keep Your Blood Sugar Level Data Here</p>
+				</div>
+			</>
+		);
+	}
 }
