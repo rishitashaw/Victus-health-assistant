@@ -22,9 +22,9 @@ const state = {
   datasets: [
     {
       label: "Body Weight",
-      fill: false,
+      fill: true,
       lineTension: 0.5,
-      backgroundColor: "#eb92be",
+      backgroundColor: "#f09fc7",
       borderColor: "rgba(0,0,0,1)",
       borderWidth: 2,
       data: [65, 59, 60, 64, 66, 64, 60, 54, 60, 60, 60, 60],
