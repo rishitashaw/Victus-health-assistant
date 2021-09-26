@@ -90,7 +90,7 @@ export default function LandingPageComp() {
                 <input
                   name="email"
                   id="email"
-                  type="email"
+                  type="text"
                   placeholder="Enter your email address"
                   required
                 />
