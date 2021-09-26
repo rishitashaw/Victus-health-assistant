@@ -81,6 +81,16 @@ truffle test
 # screenshots
 ![Screenshot (167)](https://user-images.githubusercontent.com/75828535/134640956-46783628-76e1-414d-82ed-90b31c3856f2.png)
 
+![Screenshot (171)](https://user-images.githubusercontent.com/75828535/134794383-96abb84b-5a1c-4fea-9cdd-998e2180e52a.png)
+
+![Screenshot (172)](https://user-images.githubusercontent.com/75828535/134794386-191cf67c-5cd9-4797-ad53-8ded875491cc.png)
+![Screenshot (173)](https://user-images.githubusercontent.com/75828535/134794388-521f3cfa-e2fd-45eb-a029-6b59f5a490f6.png)
+![Screenshot (174)](https://user-images.githubusercontent.com/75828535/134794390-0c9ae535-19db-4fbb-9a69-b713d4431916.png)
+
+![Screenshot (175)](https://user-images.githubusercontent.com/75828535/134794392-7be6641c-55a6-491a-ab25-fa070923fea2.png)
+![Screenshot (176)](https://user-images.githubusercontent.com/75828535/134794394-5645fc15-e31c-40db-8abc-2607af514758.png)
+
+
 <img width="1384" alt="Screenshot 2021-09-04 at 11 22 41 PM" src="https://user-images.githubusercontent.com/32922277/132104479-7b07040f-6994-4823-84ab-ad166fc85de2.png">
 <img width="1402" alt="Screenshot 2021-09-04 at 11 23 40 PM" src="https://user-images.githubusercontent.com/32922277/132104481-ad2cb506-8ea7-4a30-aa54-51941b712baf.png">
 
